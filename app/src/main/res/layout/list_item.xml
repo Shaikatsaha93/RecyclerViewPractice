@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view1"
+        android:textSize="20dp"
+        android:textColor="#FF0000"
+        android:paddingLeft="10dp"
+        android:text="Text 1"
+        android:layout_toRightOf="@+id/image"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view2"
+        android:textSize="20dp"
+        android:textColor="#FF0000"
+        android:text="Text 2"
+        android:paddingLeft="10dp"
+        android:layout_toRightOf="@+id/image"
+        android:layout_below="@+id/text_view1"/>
+
+    <TextView
+        android:id="@+id/text_view3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view1"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="26dp"
+        android:layout_toRightOf="@+id/image"
+        android:paddingLeft="10dp"
+        android:text="Text 3"
+        android:textColor="#FF0000"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
